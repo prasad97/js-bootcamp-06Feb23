@@ -18,7 +18,7 @@ Make Tea
 // Function Declaration
 let user="Navin";
 
-function greet(name="User"){
+function greet (name="User"){
     console.log("Good Morning " + name);
     console.log("Wishing you a wonderful day ahead")
 }
@@ -39,7 +39,11 @@ add(3,'hello')
 
 // Function Expression
 
+let sayBye = function(){
+    console.log("Goodbye");
+}
 
+sayBye();
 
 
 
